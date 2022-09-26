@@ -321,9 +321,19 @@ form{
           border-color:black ;
           border-style:solid;
           border-radius: 10px;
-          width: auto;
+          width: 260px;
           text-align: center;
           background-color: rgb(64, 57, 74);
           margin-bottom: 5px;
 }
+          .Discord{
+                     margin: 0 auto;
+          border-color:black ;
+          border-style:solid;
+          border-radius: 10px;
+          width: 260px;
+          text-align: center;
+          background-color: rgb(64, 57, 74);
+          margin-bottom: 5px;
+          }
 }
