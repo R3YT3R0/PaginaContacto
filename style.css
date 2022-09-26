@@ -59,7 +59,6 @@ main{
           background-color:#7ECA9C;
           margin-top:10px;
           border-radius: 15px;
-          border-style: solid;
           margin-bottom: 10px;
 }
 .menu a{
@@ -128,8 +127,7 @@ form{
           border-radius: 10px;
           border-style:solid;
           border-color:black;
-          width: 400px;
-          padding: 20px;
+          width: 480px;
           text-align: center;
           margin-bottom: 5px;
 }
@@ -312,7 +310,6 @@ form{
           border-style:solid;
           border-color:black;
           width: auto;
-          padding:0 auto;
           text-align: center;
           margin-bottom: 5px;
 }
