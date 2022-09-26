@@ -296,4 +296,25 @@ form{
 .formulario button{
           background-color: rgb(204, 255, 189);
 }
+          
+          .Redes{
+          background-color: rgb(64, 57, 74);
+          margin: 0 auto;
+          border-radius: 10px;
+          border-style:solid;
+          border-color:black;
+          width: auto;
+          text-align: center;
+          margin-bottom: 5px;
+}
+          .Twitter{
+          margin: 0 auto;
+          border-color:black ;
+          border-style:solid;
+          border-radius: 10px;
+          width: auto;
+          text-align: center;
+          background-color: rgb(64, 57, 74);
+          margin-bottom: 5px;
+}
 }
