@@ -311,6 +311,7 @@ form{
           border-style:solid;
           border-color:black;
           width: auto;
+          padding:0 auto;
           text-align: center;
           margin-bottom: 5px;
 }
