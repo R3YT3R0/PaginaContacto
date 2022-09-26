@@ -59,7 +59,7 @@ main{
           background-color:#7ECA9C;
           margin-top:10px;
           border-radius: 15px;
-          border-style: solid;
+          border-style: ;
           margin-bottom: 10px;
 }
 .menu a{
@@ -86,7 +86,6 @@ main{
           border-color:black;
           padding-top: 20px;
           padding-left: 0px ;
-          padding-bottom: 10px;
 
 }
 .menu li:hover .submenu{
@@ -98,16 +97,14 @@ h1{
 
 form{
           margin: 0 auto;
-          width: auto;
+          width: 400px;
 }
 .formulario{
           text-align: center;
           background-color:rgb(64, 57, 74);
-          width:  auto;
           border-radius: 10px;
           border-style: solid;
           margin-bottom: 10px;
-          width: 100%;
 }
 .formulario input{
           height:40px ;
@@ -131,8 +128,17 @@ form{
           border-style:solid;
           border-color:black;
           width: 400px;
+          padding: 20px;
           text-align: center;
           margin-bottom: 5px;
+}
+.Discord{
+        border-color: black;
+        border-style: solid;
+        border-radius: 10px;      
+        margin: 0 auto;
+        margin-bottom: 10px;
+        width: 380px;
 }
 
 .Discord a{
@@ -149,7 +155,7 @@ form{
           border-color:black ;
           border-style:solid;
           border-radius: 10px;
-          width: 400px;
+          width: 380px;
           text-align: center;
           background-color: rgb(64, 57, 74);
           margin-bottom: 5px;
@@ -168,8 +174,8 @@ form{
 @media (max-width:750px){
 body{
           background-color: rgb(74, 74, 74);
-          padding-left: 40px;
-          padding-right: 40px;
+          padding-left: 20px;
+          padding-right: 20px;
  
 }
 main{
@@ -218,8 +224,8 @@ main{
           display: flex;
 }
 .menu{
-          display:block ;
-          width: 300px;
+          display:flex ;
+          width: auto;
           justify-content: space-evenly;
           padding: 10px;
           padding-bottom: 10px;
@@ -230,7 +236,6 @@ main{
           background-color:#7ECA9C;
           margin-top:10px;
           border-radius: 15px;
-          border-style: solid;
           margin-bottom: 5px;
 }
 .menu a{
@@ -286,14 +291,21 @@ form{
 }
 .formulario input{
           height:40px ;
+
           font-size: 20px;
           background-color: rgb(204, 255, 189);
           text-align: center;
-          width: auto;
+          width: 100%;
           font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
 .formulario button{
           background-color: rgb(204, 255, 189);
 }
+.Redes{
+        margin: 0 auto;
+        width: auto;
+}
+
+
 }
