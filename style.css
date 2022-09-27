@@ -225,6 +225,7 @@ main{
 .menu{
           display:flex ;
           width: auto;
+          flex-direction:row;
           justify-content: space-evenly;
           padding: 10px;
           padding-bottom: 10px;
@@ -232,7 +233,6 @@ main{
           height:auto;
           text-align: center;
           margin: 0 auto;
-          background-color:#7ECA9C;
           margin-top:10px;
           border-radius: 15px;
           margin-bottom: 5px;
