@@ -188,9 +188,9 @@ main{
 }
           
  .menu{
-           display:flex;
-           flex-direction:column;
-           margin:0 auto;
+           display:block;
+           text-align:center;
+          }
           
           
 .logo{
