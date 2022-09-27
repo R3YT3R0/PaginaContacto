@@ -48,7 +48,7 @@ main{
 }
 
 .menu{
-          display:flex ;
+          display:flex;
           width: 600px;
           justify-content: center;
           padding: 10px;
@@ -186,6 +186,13 @@ main{
           border-style: solid;
           padding: 25px;
 }
+          
+ .menu{
+           display:flex;
+           flex-direction:column;
+           margin:0 auto;
+          
+          
 .logo{
           margin: 0 auto;
           text-align: center;
