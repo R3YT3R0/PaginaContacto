@@ -5,7 +5,7 @@
           list-style: none;
      }
      body{
-          background: url("https://static.vecteezy.com/system/resources/previews/002/058/317/original/retro-futuristic-80s-background-free-vector.jpg") ;
+          background: url("https://plustatic.com/3694/conversions/partes-monta%C3%B1a-default.jpg") ;
           background-repeat:no-repeat;
           background-size:250vh 150vh  ;
      }
@@ -72,7 +72,7 @@
      .menu a:hover{
           border-bottom: #c7c7c7 solid;
           background: #1f1f1f37;
-          color: black;
+          color: rgb(152, 4, 152);
      }
      
      
@@ -188,7 +188,7 @@
           background-color: #444343;
      
      }
-     .icon-cancel{     
+     .icon-cancel-1{     
           position: absolute;
           top: 10px;
           right: 5px;
