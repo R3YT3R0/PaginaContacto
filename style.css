@@ -1,198 +1,255 @@
-*{
-          padding: 0px;
-          margin:0px;
-          box-sizing: border-box;
-          list-style: none;
-     }
-     body{
-          background: url("https://plustatic.com/3694/conversions/partes-monta%C3%B1a-default.jpg") ;
-          background-repeat:no-repeat;
-          background-size:250vh 150vh  ;
-     }
-     header{
-          width: auto;
-          height: 70px;
-          background: rgba(0, 0, 0, 0.2);
-          top: 0;left:0;
-     }
-     .container{
-     display: flex;
-     justify-content:space-around;
-     width: auto;
-          line-height: 60px;
-     }
-     .container .btn-menu{
-          display: flex;
-          float: left;
-          color: black;
-          font-size:20px ;
-          flex-direction: row;
-          position: relative;
-     }
-     .container .btn-menu h1{
-          color: #fff;
-     }
-     
-     .container .btn-menu label{
-          color: #fff;
-          cursor: pointer;
-          font-size: 25px;
-     }
-     
-     .logo h1{
-          color: #fff;
-          font-weight: 400;
-          font-size: 22px;
-          margin-left:10px
-     }
-      
-     #menu{
-          display: 	flex;
-          flex-direction: row;
-          color: black;
-          float: right;
-     
-     }
-     .menu{
-          display: flex;
-          font-size: 23px;
-          justify-content: space-around;
-          float: right;
-     } 
-     .menu a{
-          color: white;
-               text-decoration:none;
-               padding-left: 10px;
-               line-height: 35px;
-          transition:all 500ms ease;
-          border-bottom:none 3px;
-          padding: 10px;
-     
-     }
-     .menu a:hover{
-          border-bottom: #c7c7c7 solid;
-          background: #1f1f1f37;
-          color: rgb(152, 4, 152);
-     }
-     
-     
-     .formulario{
-     
-          text-align: center;
-          transition: 900ms ease;
-          background-color: rgba(0, 0, 0, 0.5);
-          margin: auto;
-          position: unset;
-          width: 500px;
-          margin-top: 125px;
-          padding-bottom: 20px;
-          border-radius: 10px;
-          border: rgba(0, 0, 0, 0.4) 3px solid;
-     }    
-     .formulario h1{
-          padding:20px;
-          color: white;
-          position: relative;
-     }
-     .formulario h1:hover{
-          color: white;
-          text-decoration: underline;
-          text-decoration-color:white ;
-     }
-     .formulario input{
-          width: 400px;
-          padding-top: 5px;
-          position: relative;
-          background-color: rgb(223, 220, 220);
-          margin:25px;
-          padding-bottom: 5px;
-          text-align: center;
-          font-size:20px;
-          color: black;
-          text-shadow:20px sandybrown solid;
-     }
-     .formulario button{
-          position: relative;
-          cursor:crosshair;
-          font-size: 19px;
-               padding:8px;
-     }
-     .capa{
-        
-     
-          position: fixed;
-     }
-     #btn-menu{
-          display: none;
-     }
-     .Discord-id{
-          display: none;
-     }
-     .Discord a:hover .Discord-id{
-      display: block;
-     }
-     
-     
-     .container-menu{
-          position: absolute;
-          background: rgba(0, 0, 0, 0.5);
-          width: 100%;
-          height: 100vh;     
-          top: 0;left: 0;     
-          transition:all 500ms ease;
-            opacity: 0;
-          visibility: hidden;
-          align-self: center;
-     }
-     
-     #btn-menu:checked ~.container-menu{
-          visibility: visible;
-          opacity: 1;
-     }
-     #btn-menu:checked ~.formulario{
-          position: unset;
-     }
-     
-     .cont-menu{
-          width: 100%;
-          max-width: 220px;
-          height: 100vh;
-          background-color: #1c1c1c;
-          position: relative;
-          transition: all 500ms ease;
-      
-     }
-     .cont-menu nav{
-          transform: translateY(15%);
-     }
-     .Submenu22{
-          display:none;
-          background-color: #444343;
-     }
-     .menu22 li:hover .Submenu22{
-          display: block;
-     }
-     
-     .cont-menu nav a{
-          display: block;
-          padding: 20px;
-          color:white;
-          text-decoration: none;
-          font-size: 19px;
-          text-align: center;
-          transition:all  450ms ease-in;
-          border-bottom: 1px  solid transparent;
-     }
-     .cont-menu nav a:hover{
-          border-bottom: 1px solid white;
-          background-color: #444343;
-     
-     }
-     .icon-cancel-1{     
-          position: absolute;
-          top: 10px;
-          right: 5px;
-          cursor: pointer;
-          color: #fff;
-     }
-     
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+body {
+  height: 100vh;
+  background: url("http://wallpapers.net/green-polygon-pattern-hd-wallpaper/download/3840x2160.jpg");
+  background-size: cover;
+  background-position: 50%;
+}
+
+* {
+  font-family: "Montserrat";
+  padding: 0;
+  margin: 0;
+}
+
+* button {
+  cursor: pointer;
+}
+
+.Main1 {
+  background: linear-gradient(180deg, #353232, #232323);
+  position: absolute;
+  width: 800px;
+  height: 400px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.217);
+  animation: BackgrounMovment 3s ease infinite;
+}
+
+.Lights {
+  display: flex;
+  justify-content: space-evenly;
+  width: 25%;
+  padding: 10px;
+  border-top-left-radius: 10px;
+}
+
+.Luces {
+  width: 100%;
+  background: #3c3c3c;
+  border-top-left-radius: 10px;
+  position: absolute;
+  border-top-right-radius: 10px;
+
+  top: 0;
+  left: 0;
+}
+
+.Light {
+  width: 15px;
+  height: 15px;
+  transform: scale(1.2);
+  border-radius: 50%;
+  justify-content: center;
+  display: inline-block;
+}
+
+.Green {
+  animation: Semafaro1 2s linear infinite;
+}
+
+.Yellow {
+  animation: Semafaro1 2s linear infinite;
+}
+
+.Red {
+  animation: Semafaro1 2s linear infinite;
+}
+
+@keyframes Semafaro1 {
+  45% {
+    background: #317f43;
+    box-shadow: 0.5px 0.5px 15px #317f43;
+    scale: 0.85;
+  }
+  50% {
+    background-color: #f8f32b;
+    box-shadow: 0.5px 0.5px 15px #f8f32b;
+    scale: 1;
+  }
+  100% {
+    background: #a52019;
+    box-shadow: 0.5px 0.5px 15px #a52019;
+    scale: 1.15;
+  }
+}
+
+.contenido {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  text-transform: uppercase;
+}
+
+.Seccion1 {
+  text-align: left;
+  color: #549234;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+}
+
+.Seccion1 p {
+  color: #696969;
+}
+
+.Barra {
+  width: 75px;
+  height: 5px;
+  position: absolute;
+  background: #549234;
+}
+
+.Seccion2 {
+  position: absolute;
+  right: 25px;
+  top: 50%;
+  transform: translate(-0, -50%);
+}
+
+.Seccion2 h2 {
+  font-size: 22px;
+  color: #555555;
+  border-bottom: #3c3c3c 1px solid;
+}
+
+.Seccion2 input {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 30px;
+  background: none;
+  border-color: transparent;
+  border-bottom: #555555 2px solid;
+  justify-content: space-between;
+  caret-color: #549234;
+  color: #549234;
+}
+
+.Seccion2 input:focus {
+  outline: none;
+  border-bottom: #549234 2px solid;
+}
+
+.Seccion2 button {
+  margin-top: 20px;
+  background: #3c3c3c;
+  border: 0px;
+  padding: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  transition: all 250ms ease;
+}
+
+.Seccion2 button:hover {
+  background: #2c2c2c;
+  color: white;
+}
+
+img {
+  position: absolute;
+  bottom: 0px;
+
+  left: 0;
+  border-bottom-left-radius: 10px;
+}
+
+@keyframes BackgrounMovment {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+footer {
+  position: absolute;
+  bottom: 30px;
+  color: #3c3c3c;
+}
+
+@media (max-width: 875px) {
+  .Main1 {
+    width: auto;
+    min-width: 400px;
+    padding-bottom: 40px;
+    border-radius: 5px;
+    background: #202222;
+    text-align: center;
+    height: auto;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Seccion1 {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .Barra {
+    text-align: center;
+    width: 150px;
+    margin-left: 16px;
+    display: flex;
+  }
+
+  .Seccion2 {
+    position: static;
+    display: grid;
+    place-items: center;
+    margin-top: 150px;
+    margin-bottom: 0px;
+  }
+
+  .Seccion2 input {
+    text-align: center;
+  }
+
+  .contenido {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+  }
+  footer {
+    margin-top: 20px;
+    position: relative;
+  }
+
+  form {
+    text-align: center;
+  }
+}
+
+.Reytero {
+  width: 20px;
+}

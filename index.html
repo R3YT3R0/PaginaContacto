@@ -1,82 +1,88 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-          <meta charset="UTF-8">
-          <meta http-equiv="X-UA-Compatible" content="IE=edge">
-          <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>contacto reytero </title> 
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="fontello.css">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="shortcut icon" href="https://s3.tradingview.com/userpics/957502-JMYi_big.png" type="image/x-icon">
+  <title>Reytero Contacto</title>
 </head>
-<body> 
-         <header>
-                <div class="container">                                
 
-                        <div class="btn-menu">  
-                                <label for="btn-menu" class="icon-menu"></label>                              
-                                        <h1>Pagina de contacto</h1>
-                        </div>
-                
-                <nav id="menu">
-                                <ul class="menu">
-                        <li><a href="#">| Inicio | </a></li>
-                        <li><a href="#">blogs | </a></li>
-                        <li><a href="#">yo |</a></li>
-                                </ul>
-                        </nav>
-                </div>
-        </div>
-         </header>
-         <div class="capa"> </div>    
+<body>
+
+  <main class="Main1">
+
+    <div class="Luces">
+      <div class="Lights">
+
+        <div class="Light Green"></div>
+        <br>
+        <div class="Light Yellow"></div>
+        <br>
+
+        <div class="Light Red"></div>
+      </div>
+    </div>
 
 
-                <input type="checkbox" id="btn-menu">                
-                <div class="container-menu">
-                        <div class="cont-menu">
-                        <nav>                        
-                        <p><a href="https://www.instagram.com/reytero__2/">Instagram</a></p>
-                        <p><a href="https://twitter.com/Reytero1">Twitter</a></p>
-                        <ul class="menu22"><li><p><a class="discord" href="https://discordapp.com/channels/@me">Discord:</a>
-                                <ul class="Submenu22">
-                                        <li><p><a>Reynierv#2747</a></p></li>
-                                </ul>
-                        </li></li>
-                        <p><a href="https://www.youtube.com/channel/UCnKqkZyem54s1uvS_K-Zslg">Youtube</a></p>
-                        </nav>                        
-                        <label for="btn-menu" class="icon-cancel-1">.</label>
+    <div class="contenido">
 
-                </div>
-                         </div>
-         </div> 
-        <main>
-                <form action="https://formspree.io/f/maykjked" method="post" class="form">
-                        <div class="formulario">
-                                <h1>Envia un Mensaje</h1>
-                                <input type="text" name="Nombre" id="nombreUser" placeholder="Nombre:" required>
-                                <br>
-                                <input type="text" name="Email" id="EmailUser" placeholder="Email:" required>
-                                <br>
-                                <input type="text" name="Mensaje" id="Mensaje"placeholder="tu mensaje:" required>
-                                <br>
-                                <button type="submit" onclick="alertaInfoUser()" >Enviar</button>
-                        </div>
-                </form>
 
-        </main>
-        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-        <script>
-        function alertaInfoUser(){
-                var nombreUser=document.getElementById("nombreUser").value
-                var emailUser=document.getElementById("EmailUser").value
-                var MensajeUser=document.getElementById("Mensaje").value                
-    alert("Hola " +  nombreUser+ " " +"vas a enviar un mensaje"+ " " + "Desde el correo:"+emailUser )    
- 
-                
-        }
-        </script>
-        
+      <div class="Seccion1">
+        <h1>
+          Contácto
+          <br>
+          Reytero
+          <div class="Barra"></div>
+        </h1>
+        <img src="pepe-phone-pepe.png" width="50px" alt="peepo">
 
+
+
+
+      </div>
+
+      <div class="Seccion2">
+        <h2>
+          Enviar un Correo
+        </h2>
+        <form id="FormularioSeccion2" action="https://formspree.io/f/mdojdvqo" method="post">
+
+          <label for=""></label>
+          <input name="Nombre" type="text" placeholder="Nombre">
+          <br>
+          <label for=""></label>
+          <input name="Email" type="text" placeholder="Correo">
+          <br>
+          <label for=""></label>
+          <input name="Discord" type="text" placeholder="Discord">
+          <br>
+          <label for=""></label>
+          <input name="Mensaje" type="text" placeholder="Mensaje">
+
+
+          <div class="botones">
+            <button type="button" id="Cancel">Cancelar</button>
+
+            <button id="Send" type="submit">Enviar</button>
+          </div>
+
+
+        </form>
+      </div>
+      <br>
+      <footer>
+        <p style="margin-bottom: 20px;">
+          Numero de teléfono:+58 0414-6563146
+        </p>
+      </footer>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
 </body>
-</html>        
-       
+
+</html>
